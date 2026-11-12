@@ -2,6 +2,7 @@
 
 # valid_ip <host> <ip> <dns_server>
 # succeeds if <host> resolves to <ip> when queried against <dns_server>
+echo "Stefania"
 function valid_ip
     set -l name $argv[1]
     set -l ip $argv[2]
